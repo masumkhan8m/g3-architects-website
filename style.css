@@ -1,0 +1,21 @@
+/* work sans font google font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,900&family=Work+Sans:ital,wght@0,700;1,400&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav> ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+nav> ul> li> a{
+    text-decoration: none;
+   
+}
