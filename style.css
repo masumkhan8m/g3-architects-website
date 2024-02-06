@@ -83,7 +83,37 @@ nav>ul li a {
     cursor: pointer;
     
 }
-
+/* features sections start  */
+main{
+    max-width: 1440px;
+    margin: 70px auto;
+}
+.features-sections{
+    display: flex;
+    align-items: center; 
+    /* width: 75%; */
+    margin: 0px auto;
+    gap: 50px;
+}
+.features-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+    margin-left: 70px;
+}
+.features-container{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.features-taitle{
+    font-size: 2.8rem;
+}
+.tomatu{
+    color: #ff900e;
+}
+.features-dascription, span{
+    color: #727272;
+}
 /* racponciv for mobail devais */
 @media screen and (max-width: 575px) {
     nav{
@@ -96,5 +126,17 @@ nav>ul li a {
     }
     nav>ul{
         gap: 20px;
+    }
+    .features-sections{
+        flex-direction: column;
+    }
+    .features-img{
+        grid-template-columns: repeat(1,1fr);
+        margin: 5px auto;
+    }
+}
+@media screen and (min-width: 575px)and (max-width: 960px){
+    .features-sections{
+        flex-direction: column;
     }
 }
