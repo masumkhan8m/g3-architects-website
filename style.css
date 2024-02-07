@@ -56,7 +56,7 @@ nav>ul li a {
     margin: 0px auto;
 }
 
-.banner-title {
+.banner-title{
     font-size: 4rem;
     font-weight: 700;
     color: #131313;
@@ -114,6 +114,50 @@ main{
 .features-dascription, span{
     color: #727272;
 }
+/* facts-section */
+.facts{
+    max-width: 1440px;
+    
+}
+.section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+    margin-left: 80px;
+}
+.text-light-gray{
+ margin-left: 80px;
+ margin-bottom: 50px;
+}
+
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.facts-card-container> .card{
+    text-align: center;
+    border: 1px solid #ff900e ;
+    border-radius: 8px;
+    padding: 30px ;
+    /* height: 200px;
+    width: 200px; */
+}
+.facts-card-container .card-stats{
+    font-size:2.8rem ;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+ .facts-card-container .card-taitle {
+    font-weight: 600;
+    color: #727272;
+    font-size: 1.25rem;
+    margin-top: 5px;
+
+ }
 /* racponciv for mobail devais */
 @media screen and (max-width: 575px) {
     nav{
