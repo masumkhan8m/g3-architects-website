@@ -140,8 +140,7 @@ main{
     border: 1px solid #ff900e ;
     border-radius: 8px;
     padding: 30px ;
-    /* height: 200px;
-    width: 200px; */
+   
 }
 .facts-card-container .card-stats{
     font-size:2.8rem ;
@@ -177,6 +176,15 @@ main{
     .features-img{
         grid-template-columns: repeat(1,1fr);
         margin: 5px auto;
+    }
+    .facts-card-container{
+        flex-direction: column;
+        gap: 20px;
+       
+    }
+    .facts-card-container .card{
+        height: 150px;
+        width: 150px;
     }
 }
 @media screen and (min-width: 575px)and (max-width: 960px){
